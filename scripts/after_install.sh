@@ -8,8 +8,9 @@ rm -rf node_modules
 rm -rf build
 
 #Install_node_modules_&_Make_React_Build
-NODE_OPTIONS="--max-old-space-size=2048" npm install
+# NODE_OPTIONS="--max-old-space-size=2048" npm install
 
 
 # npm  install
+npm install -force
 npm run build
